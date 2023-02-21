@@ -7,7 +7,10 @@ Buatlah model database untuk e-shopping dan e-commerce (beserta isinya minimal
 
 ## Skema Database
 
-Didesain dengan menggunakan tool ERDPlus. Ada di direktori `relational-schemas`.
+Didesain dengan menggunakan tool MySQL Workbench. Ada di direktori `eer-diagrams`.
+
+![e-shopping](eer-diagrams/e-shopping.svg)
+![e-commerce](eer-diagrams/e-commerce.svg)
 
 ## Proses Hydration
 
