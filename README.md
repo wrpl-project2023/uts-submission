@@ -1,7 +1,7 @@
 # Arofa
 
-Tugas ujian tengah semester mata kuliah Workshop Implementasi Rekayasa Perangkat
-Lunak.
+Tugas ujian tengah semester mata kuliah Workshop Implementasi Rancangan
+Perangkat Lunak.
 
 ## Links
 
