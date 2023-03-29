@@ -1,18 +1,12 @@
-![](https://imgs.xkcd.com/comics/exploits_of_a_mom.png)
+# Arofa
 
-# Tugas 1
+Tugas ujian tengah semester mata kuliah Workshop Implementasi Rekayasa Perangkat
+Lunak.
 
-Buatlah model database untuk e-shopping dan e-commerce (beserta isinya minimal
-100 records).
+## Links
 
-## Skema Database
-
-Didesain dengan menggunakan tool MySQL Workbench. Ada di direktori `eer-diagrams`.
-
-![e-shopping](eer-diagrams/e-shopping.svg)
-![e-commerce](eer-diagrams/e-commerce.svg)
-
-## Proses Hydration
-
-Dilakukan dengan menggunakan bantuan tool Mockaroo. File-file SQL ada di
-direktori `sql`.
+-   Presentasi/slides:
+    <https://www.canva.com/design/DAFeiG6Y8hc/bk48qrpSa4KLWgGBUZR1Vw/edit?utm_content=DAFeiG6Y8hc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton>
+-   EER diagram dan SQL: <https://github.com/wrpl-project2023/uts-submission>
+-   Dokumen spesifikasi proyek:
+    <https://docs.google.com/document/d/1KRPDGCb9KbNQm_Q7MuFHtsKzkwPsDBpOW9Re8CCpYEU/edit?usp=sharing>
