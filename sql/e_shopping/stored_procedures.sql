@@ -1,6 +1,8 @@
 DROP PROCEDURE IF EXISTS getActiveUsers;
 DROP PROCEDURE IF EXISTS getAllUsers;
 DROP PROCEDURE IF EXISTS searchUserByName;
+DROP PROCEDURE IF EXISTS getUserOrders;
+DROP PROCEDURE IF EXISTS getOrderDetails;
 
 DELIMITER $$
 CREATE PROCEDURE getActiveUsers()
@@ -28,6 +30,31 @@ BEGIN
         WHERE
                 name LIKE CONCAT('%', keyword, '%');
 END$$
-DELIMITER ;
 
-CALL getActiveUsers();
+CREATE PROCEDURE getUserOrders(IN userid INT)
+CONTAINS SQL
+BEGIN
+        SELECT users.id, orders.id, users.name, orders.status
+        FROM users
+        JOIN orders ON orders.user_id = users.id
+        WHERE
+                users.id = userid;
+END$$
+
+CREATE PROCEDURE getOrderDetails(IN oid INT)
+CONTAINS SQL
+BEGIN
+        SELECT
+                p.id, p.name,
+                od.quantity,
+                od.price AS total_price,
+                p.price as unit_price
+        FROM orders o
+        JOIN order_details od
+                ON o.id = od.order_id
+        JOIN products p
+                ON p.id = od.product_id
+        WHERE
+                o.id = oid;
+END$$
+DELIMITER ;
