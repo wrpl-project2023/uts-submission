@@ -10,3 +10,5 @@ Perangkat Lunak.
 -   EER diagram dan SQL: <https://github.com/wrpl-project2023/uts-submission>
 -   Dokumen spesifikasi proyek:
     <https://docs.google.com/document/d/1KRPDGCb9KbNQm_Q7MuFHtsKzkwPsDBpOW9Re8CCpYEU/edit?usp=sharing>
+-   UI/UX design:
+    <https://www.figma.com/file/XlYuQ3rOM2US52KGRRDGvn/2-jam-WRPL?node-id=0%3A1&t=NZfqmKR6kZ3DDxNs-1>
